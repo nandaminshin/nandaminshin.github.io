@@ -1,0 +1,109 @@
+h1{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+small{
+
+    color: blue;
+    display: block;
+    text-indent: 50px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+
+span{
+    color: darkred;
+}
+
+a[target="_blank"] {
+    color: yellow;
+}
+
+#onayi{
+    color: blue;
+    text-align: justify;
+}
+
+.gg{
+    color: rgb(141, 255, 11);
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: large;
+}
+
+p a{
+    color: red;
+}
+
+p > a{
+    color: blue;
+}
+
+a:link{
+    color: red;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: yellow;
+}
+
+a:visited{
+    color: black;
+}
+
+:target{
+    color: blue;
+    border: 1px solid black;
+}
+
+.gridone,.gridtwo,.gridthree,.gridfour{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.gridone div,.gridtwo div,.gridthree div,.gridfour div{
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.gridtwo{
+    grid-column-gap: 40px;
+
+}
+
+.gridthree{
+    grid-row-gap: 50px;
+}
+
+.gridfour{
+    grid-gap: 50px;
+}
+
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.rowadd{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.relative_parent{
+    border: 1px solid red;
+    width: 1000px;
+    height: 500px;
+    
+}
