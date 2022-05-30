@@ -40,7 +40,7 @@
 .navigataion2:hover{
     color: rgb(160, 0, 0);
     letter-spacing: 3px;
-    
+    transition-duration: 0.7s;
 }    
 
 .clear{
@@ -102,6 +102,7 @@
 .button:hover{
     color: rgb(0, 0, 0);
     padding: 20px;
+    transition-duration: 0.3s;
 }
 
 #cart{
@@ -119,6 +120,7 @@
 #cart:hover{
     color: black;
     background-color: aqua;
+    transition-duration: 0.7s;
 }
 
 #latest_products{
@@ -320,6 +322,7 @@
 
 .bt:hover{
     padding: 25px;
+    transition-duration: 0.3s;
 }
 
 .rightdiv{
@@ -493,6 +496,7 @@ input[type=email]{
 #send:hover{
     color: rgb(0, 0, 0);
     background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(0, 238, 255));
+    transition-duration: 0.3s;
 }
 
 .map{
