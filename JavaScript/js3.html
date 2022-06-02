@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        
+        let traffic_light = prompt("Enter traffic light");
+        console.log(traffic_light);
+
+        // if(traffic_light=="yellow" || traffic_light=="red") {
+        //     document.write('<h3>Stop the car</h3>');
+        // }
+
+        // else{
+        //     document.write('<h3>Drive the car</h3>')
+        // }
+
+        if(traffic_light=="green"){
+            document.write('<h3>Drive the car</h3>');
+        }
+        else if(traffic_light=="red"){
+            document.write('<h3>Stop the car</h3>');
+        }
+        else if(traffic_light=="yellow"){
+            document.write('<h3>Slow down</h3>');
+        }
+
+        else{
+            document.write('<h3>Traffic light error</h3>');
+        }
+
+    </script>
+
+</body>
+</html>
