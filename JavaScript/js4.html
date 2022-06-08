@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <h1>String lesson</h1>
+    <script>
+        let FirstName = "Nanda Min";
+        let SecondName = "Shin";
+
+        console.log(FirstName);
+        console.log(SecondName);
+        console.log(typeof(FirstName));
+        console.log(typeof(SecondName));
+
+        console.log(FirstName.length);
+        console.log(SecondName.length);
+
+        let fullname = FirstName.concat(' ' , SecondName);
+        console.log(fullname);
+
+        console.log('My name is ' + fullname);
+
+        console.log(`My name is ${fullname}`);
+
+        console.log(fullname[7]);
+
+        console.log(fullname.toUpperCase());
+        console.log(fullname.toLowerCase());
+
+        console.log(fullname.substr(6,3));
+       let hi = "  Welcome to my class   ";
+       console.log(hi.trim());
+
+       let ser = "Javascript is funny!";
+       let res = ser.search('is');
+       console.log(res);
+
+       let rep = "I want to visit yangon";
+       let rep_result = rep.replace('yangon', 'mandalay');
+       console.log(rep_result);
+
+       console.log('I\'m a progarmmer');
+       console.log("I'm a programmer");
+
+    </script>
+</body>
+</html>
