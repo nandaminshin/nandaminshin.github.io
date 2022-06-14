@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises page</title>
+</head>
+<body>
+    <h1 id="hd">This is heading</h1>
+    <img src="javascript.png" alt="" id="photo">
+    <button type="button" onclick="change()">click</button>
+    <p id="p">Zero to pro</p>
+    <button type="button" onclick="document.getElementById('p').style.visibility='hidden'" >Hide</button>
+    <button type="buttom" onclick="document.getElementById('p').style.visibility='visible'">Show</button>
+
+    <script>
+       function change(){
+        let heading = document.querySelector('#hd');
+       heading.style.color ='red';
+
+       let image = document.querySelector('#photo');
+       image.style.width ='50%';
+       image.style.height = 'auto';
+       }
+    </script>
+</body>
+</html>
