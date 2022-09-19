@@ -1,0 +1,67 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.custom_bgcolor{
+    background-color: #0F172B;
+}
+
+.carousel-item img{
+    height: 70vh;
+    object-fit: cover;
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+ }
+
+.ratio iframe{
+    border-radius: 20px;
+ }
+
+ #joinsection{
+    background: url('../assets/assets 2/img/joinbanner.png') no-repeat center center fixed;
+    background-size: cover;
+ }
+
+ .userphoto{
+    border-radius: 50%;
+ }
+
+ .progress{
+    border: solid 2px white;
+    
+ }
+
+.mybutton{
+    padding: 3px 70px 3px 70px;
+    border: 1px solid white;
+    border-radius: 7px;
+    
+}
+
+#shitphoto{
+    position: relative;
+    left: 60px;
+}
+
+#shitbtn{
+    position: relative;
+    padding-top: 20px;
+}
+
+.shitlists{
+    list-style: none;
+    color: antiquewhite;
+}
+
+.footer{
+    position: relative;
+    padding: 10px 0px 0px 0px;
+}
