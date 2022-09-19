@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#list').css('color', 'blue');
+            
+            
+            $('#bt').click(function(){
+                $('#list').find("a").css('color','red');
+                
+                $('#bt').click(function(){
+                    $('#list').find("a").css('color','blue');
+                })
+            });
+        })
+        
+    </script>
+
+</head>
+<body>
+    
+    <h2>JQuery Event</h2>
+    <button id="bt">Click here!</button>
+
+    
+
+    <ul id="list">
+        <li><a href="https://youtube.com">Youtube</a></li>
+        <li>This is second</li>
+        <li>This is third</li>
+    </ul>
+</body>
+</html>

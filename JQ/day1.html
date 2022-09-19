@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQ</title>
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(
+            function(){
+            var h = $("#head")
+            console.log(h)
+
+            var p = $("p.ph")
+            console.log(p)
+
+            var b = $("button")
+            console.log(b)
+
+            $("p.ph").hide()
+
+            var l = $("#list1 li:first")
+            console.log(l)
+
+            var foo = $("div.foo").has("p");
+            console.log(foo);
+
+            var bar = $("h1").not(".bar");
+            console.log(bar);
+
+            var current = $("#list1 li").filter(".current");
+            console.log(current);
+
+            var eq = $("ul li").eq(0);
+            console.log(eq);
+
+        })
+    </script>
+</head>
+<body>
+
+    <h1 id="head" class="bar">Hello JQ</h1>
+
+    <p class="ph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga reiciendis suscipit in minima qui ipsum eveniet fugiat vel, blanditiis quidem, reprehenderit nihil magnam, deserunt et accusamus voluptas dolores! Expedita, animi!</p>
+
+    <div class="ph">This is division.</div>
+
+    <button>click me</button>
+
+    <ul id="list1">
+        <li>A</li>
+        <li class="current">B</li>
+        <li id="c">C</li>
+    </ul>
+
+    <div>
+        <div class="foo">
+            <h1 class="bar">This is heading.</h1>
+            <p>This is paragraph.</p>
+        </div>
+
+        <div>
+            <h1>Not bar hading.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, hic!</p>
+        </div>
+    </div>
+
+
+
+    <!-- <script>
+
+        var h = $("#head")
+        console.log(h)
+
+    </script> -->
+
+</body>
+</html>
